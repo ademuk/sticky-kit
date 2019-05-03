@@ -1,6 +1,6 @@
 
 dist/sticky-kit.min.js: dist/sticky-kit.js
-	closure-compiler --language_in=ECMASCRIPT5 $< > $@
+	closure-compiler --language_in=ECMASCRIPT6 $< > $@
 
 dist/sticky-kit.js: sticky-kit.coffee
 	coffee -p -c $< > $@
